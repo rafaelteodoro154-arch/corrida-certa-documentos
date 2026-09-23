@@ -65,7 +65,24 @@ O aplicativo pode solicitar ou direcionar para os seguintes controles, conforme 
 
 A pessoa pode revogar permissões, desligar o leitor, pausar a leitura, desligar a leitura visual e desativar a captura para a galeria. Desativar uma função pode impedir o funcionamento dela, mas não apaga automaticamente arquivos já criados.
 
-## 6. Contato e alterações
+
+## 6. Acessibilidade e limites do leitor
+
+O uso do serviço de Acessibilidade é limitado exclusivamente à leitura de informações visíveis na tela de cartões de oferta de aplicativos compatíveis selecionados pela pessoa usuária, para cálculo e análise. O aplicativo não toca em botões, não aceita ou recusa ofertas, não preenche campos, não navega por outros aplicativos e não executa ações em nome da pessoa usuária.
+
+O conteúdo visível necessário para a análise é processado localmente. A oferta reconhecida pode ser guardada no histórico privado deste aparelho, conforme explicado nesta política. O aplicativo não envia, vende ou compartilha esse conteúdo com servidores próprios ou terceiros. A pessoa pode desligar o leitor e apagar o histórico a qualquer momento.
+
+## 7. Publicidade e assinaturas em versões futuras
+
+A versão beta atual não exibe publicidade e não oferece assinatura paga. Em versões futuras, o aplicativo poderá exibir anúncios fornecidos por serviços de terceiros. Caso isso ocorra, esses serviços poderão processar dados técnicos ou identificadores para disponibilização e, quando permitido e configurado, personalização de anúncios. Antes de disponibilizar essa mudança, o aplicativo, a ficha da Google Play, o formulário Segurança dos dados e esta política serão atualizados para refletir exatamente os dados envolvidos, a finalidade, os parceiros e os controles aplicáveis.
+
+Futuras versões também poderão incluir assinaturas pagas oferecidas pela Google Play. Todas as cobranças serão processadas pelo sistema de faturação da Google Play, segundo os termos e controles da Google. O Corrida Certa não armazena os dados completos de cartão ou outros dados de pagamento usados no processamento da cobrança.
+
+## 8. Independência de plataformas
+
+O Corrida Certa não é afiliado, associado, patrocinado ou endossado pela Uber, Bolt, 99 ou por qualquer outra plataforma de transporte. Os nomes de plataformas eventualmente mostrados no aplicativo identificam somente a origem visível de uma oferta e pertencem aos respetivos titulares.
+
+## 9. Contato e alterações
 
 **Contato de privacidade e suporte:** [wbsxavier01@gmail.com](mailto:wbsxavier01@gmail.com)
 
