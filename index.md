@@ -2,6 +2,7 @@
 title: Política de Privacidade — Corrida Certa
 ---
 
+[Termos de Uso](./termos)
 
 **Versão:** 0.7.9-beta  
 **Última atualização:** 23 de setembro de 2026  
