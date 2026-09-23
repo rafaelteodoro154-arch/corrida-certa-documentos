@@ -5,6 +5,7 @@ title: Termos de Uso — Corrida Certa
 # Termos de Uso — Corrida Certa
 
 **Última atualização:** 23 de setembro de 2026  
+**Versão:** 0.8.0-beta  
 **Contato:** [wbsxavier01@gmail.com](mailto:wbsxavier01@gmail.com)
 
 ## Finalidade
