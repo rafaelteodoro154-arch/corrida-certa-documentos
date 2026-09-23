@@ -2,9 +2,14 @@
 title: Política de Privacidade e Termos de Uso — Corrida Certa
 ---
 
+# Política de Privacidade – Corrida Certa
+
 **Versão:** 0.8.0-beta  
 **Última atualização:** 23 de setembro de 2026  
-**Estado:** versão de testes gratuita, sem publicidade e sem cobrança
+
+> **No momento, esta é uma versão de testes gratuita, sem publicidade e sem cobrança.**
+>
+> Em uma próxima atualização, enquanto o aplicativo evolui após os testes, poderão ser implementados anúncios ou uma assinatura paga pela Google Play. Antes de qualquer mudança, o aplicativo, a ficha da Google Play, a declaração de Segurança dos dados e esta Política de Privacidade serão atualizados para informar os recursos, o preço quando aplicável e as condições.
 
 ## 1. Escopo
 
