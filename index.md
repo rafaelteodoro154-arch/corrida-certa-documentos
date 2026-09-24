@@ -26,6 +26,8 @@ Cada oferta reconhecida pode ser gravada uma vez no histórico privado do aparel
 
 A opção **Captura automática para galeria** vem desligada e requer uma escolha separada. Quando ativada, o TripQ pode guardar uma imagem por oferta reconhecida em `Pictures/TripQ` e associá-la ao respetivo registo no Histórico. A imagem pode conter nomes, locais, valor e outros detalhes visíveis. Ela fica no aparelho e pode ser tratada por aplicativos de galeria, cópia de segurança ou sincronização conforme as definições desses serviços. O TripQ não envia essas imagens a servidores próprios.
 
+Nas capturas criadas no acesso gratuito com publicidade, o TripQ acrescenta uma marca de água permanente composta por um símbolo central grande e um padrão translúcido com o nome TripQ. A marca identifica o modo gratuito e ainda permite ver o conteúdo da oferta. Nas capturas criadas por uma assinatura Premium ativa, é usada apenas uma marca discreta TripQ com data e hora.
+
 ### Leitura visual opcional
 
 A leitura visual por reconhecimento de texto (OCR) é opcional. Quando ativada, o TripQ captura temporariamente somente a janela visível da plataforma compatível para reconhecer texto no próprio aparelho. Em tela dividida, a outra metade da tela não é capturada nem analisada. A imagem temporária é descartada após a leitura, salvo se a pessoa também ativar a captura automática para a galeria. O TripQ não tenta contornar conteúdo protegido pelo Android.
@@ -36,7 +38,7 @@ No Histórico, a pessoa pode tocar no endereço de recolha ou destino para abrir
 
 ### Gravação opcional
 
-A gravação frontal inicia e termina somente por comando da pessoa usuária. O áudio é opcional. Durante a gravação, o Android mantém os indicadores de privacidade e o TripQ mantém uma notificação visível. Os vídeos são guardados localmente em `Movies/TripQ` e incluem marca d’água com data e hora.
+A gravação frontal inicia e termina somente por comando da pessoa usuária. O áudio é opcional. Durante a gravação, o Android mantém os indicadores de privacidade e o TripQ mantém uma notificação visível. Os vídeos são guardados localmente em `Movies/TripQ`. No acesso gratuito com publicidade, o vídeo inclui o símbolo central grande e um padrão translúcido TripQ por toda a imagem. Com Premium ativo, o vídeo mantém apenas a marca de água móvel e discreta com TripQ, data e hora.
 
 ## 3. Publicidade, assinatura e rede
 
