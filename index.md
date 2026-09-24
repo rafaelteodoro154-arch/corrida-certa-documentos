@@ -1,4 +1,5 @@
 ---
+layout: null
 title: Política de Privacidade e Termos de Uso — TripQ
 ---
 
