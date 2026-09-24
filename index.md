@@ -1,140 +1,128 @@
 ---
-title: Política de Privacidade e Termos de Uso — Corrida Certa
+title: Política de Privacidade e Termos de Uso — TripQ
 ---
 
-# Política de Privacidade – Corrida Certa
+# Política de Privacidade – TripQ
 
-**Versão:** 0.8.0-beta  
-**Última atualização:** 23 de setembro de 2026  
+**Última atualização: 24 de setembro de 2026**
 
-> **No momento, esta é uma versão de testes gratuita, sem publicidade e sem cobrança.**
->
-> Em uma próxima atualização, enquanto o aplicativo evolui após os testes, poderão ser implementados anúncios ou uma assinatura paga pela Google Play. Antes de qualquer mudança, o aplicativo, a ficha da Google Play, a declaração de Segurança dos dados e esta Política de Privacidade serão atualizados para informar os recursos, o preço quando aplicável e as condições.
+> **Versão de testes gratuita, sem publicidade e sem cobrança.** O TripQ está em beta. Uma atualização futura poderá incluir publicidade de terceiros ou assinatura processada pela Google Play. Antes de qualquer cobrança ou alteração material no tratamento de dados, esta página, o aplicativo e a ficha da Google Play serão atualizados.
 
-## 1. Escopo
+## 1. Responsável e contacto
 
-O **Corrida Certa** ajuda a analisar ofertas visíveis em aplicativos de transporte compatíveis e apresenta cálculos no próprio aparelho. O aplicativo não aceita ou recusa ofertas, não cria conta de usuário e não envia o conteúdo analisado para servidores próprios.
-
-A versão beta é gratuita. Não há assinatura ativa, período de teste pago, publicidade, produto de faturação ou cobrança nesta versão. Uma futura versão comercial somente poderá adicionar preço e condições depois de atualizar o aplicativo, a ficha da loja, a configuração correspondente no Google Play e esta política.
+O **TripQ** é um aplicativo de apoio à análise local de ofertas visíveis em plataformas de transporte compatíveis. Para dúvidas de privacidade, suporte ou pedidos relacionados com dados, contacte **wbsxavier01@gmail.com**.
 
 ## 2. Dados tratados no aparelho
 
-### Conteúdo visível dos cartões de oferta
+### Conteúdo visível de ofertas
 
-Após a pessoa ativar voluntariamente o serviço de Acessibilidade nas configurações do Android, o aplicativo pode ler dados visíveis em cartões de oferta de aplicativos compatíveis selecionados. Esses dados podem incluir valor, moeda, distância, tempo, pontos de recolha e destino, nome exibido, categoria, avaliação e detalhes disponíveis no cartão.
+Quando a pessoa ativa voluntariamente o serviço de Acessibilidade, o TripQ pode ler informações visíveis no cartão de uma oferta. Essas informações podem incluir valor, moeda, distância, tempo, locais de recolha e destino, nome apresentado, categoria e outros detalhes exibidos pela plataforma.
 
-Esses dados são usados localmente para calcular valor por quilómetro, valor por hora e classificação da oferta. Custo e lucro estimados são calculados somente quando a pessoa ativa a opção de custo do veículo. O aplicativo não aceita, recusa ou executa ações nas ofertas.
+O TripQ usa essas informações apenas no aparelho para calcular indicadores, apresentar uma análise e criar o histórico local. O aplicativo não aceita nem recusa ofertas, não toca em botões de outros aplicativos, não preenche campos, não navega e não executa ações em nome da pessoa usuária.
+
+### Histórico local
+
+Cada oferta reconhecida pode ser gravada uma vez no histórico privado do aparelho. O registo pode conter métricas calculadas, valor, tempo, distância, locais e texto visível do cartão. A pessoa pode apagar um registo específico ou apagar todo o histórico pela tela Histórico. A eliminação do histórico não apaga ficheiros que já tenham sido guardados na galeria.
 
 ### Leitura visual opcional
 
-O reconhecimento de texto por imagem é desligado por padrão e exige confirmação separada. Quando ativado, ele captura temporariamente somente a janela visível do aplicativo compatível para reconhecer texto localmente. Em tela dividida, a outra metade não é capturada ou analisada. A imagem temporária é descartada após a leitura, salvo se a pessoa também tiver autorizado a captura automática para a galeria. Conteúdo protegido pelo Android não é contornado.
+A leitura visual por reconhecimento de texto (OCR) é opcional. Quando ativada, o TripQ captura temporariamente somente a janela visível da plataforma compatível para reconhecer texto no próprio aparelho. Em tela dividida, a outra metade da tela não é capturada nem analisada. A imagem temporária é descartada após a leitura, exceto quando a pessoa também ativa a captura automática para a galeria. O TripQ não tenta contornar conteúdo protegido pelo Android.
 
-### Histórico e diagnóstico locais
+### Capturas de tela opcionais
 
-O histórico guarda uma vez cada oferta reconhecida no banco privado do aparelho. Um registro pode incluir métricas calculadas, detalhes visíveis do cartão e texto disponível. A pessoa pode apagar todo o histórico pela tela Histórico. Eventos repetidos são deduplicados para evitar registros da mesma oferta.
+A opção **Captura automática para galeria** vem desligada e exige autorização separada. Quando a pessoa a ativa, o TripQ pode guardar uma imagem por oferta reconhecida em `Pictures/TripQ`. A imagem pode conter nomes, locais, valor e outros detalhes que estejam visíveis no cartão. As imagens ficam no aparelho e podem ser tratadas por aplicativos de galeria, cópia de segurança ou sincronização conforme as definições desses serviços. O TripQ não envia essas imagens para servidores próprios.
 
-O diagnóstico pode manter em memória o último texto capturado e eventos da sessão. Ele pode conter nomes e endereços que estiverem visíveis. Pode ser desligado nas configurações; o texto de diagnóstico não é enviado nem gravado em arquivo pelo mecanismo de diagnóstico.
+### Navegação por endereço
 
-### Capturas e vídeos opcionais
+Nos cartões do histórico, a pessoa pode tocar no endereço de recolha ou destino para abrir uma rota no Waze. Essa ação só acontece depois do toque da pessoa usuária. O endereço escolhido é passado ao Waze ou ao navegador para realizar a pesquisa de rota. A utilização posterior é regida pelas políticas do Waze e do serviço de navegação utilizado; o TripQ não recebe a rota nem guarda a navegação efetuada.
 
-A captura automática para a galeria é desligada por padrão e exige autorização separada. Capturas autorizadas são salvas em `Pictures/CorridaCerta` e podem conter dados visíveis na tela.
+### Gravação opcional
 
-A gravação de segurança usa a câmera frontal somente depois de uma ação da pessoa usuária. O áudio é opcional e desligado por padrão. Durante a gravação, o Android mantém seus indicadores de privacidade e o aplicativo mantém uma notificação visível para parar. Vídeos são salvos localmente em `Movies/CorridaCerta` com marca d’água móvel de data e hora.
+A gravação frontal inicia e termina somente por comando da pessoa usuária. O áudio é opcional. Durante a gravação, o Android mantém os indicadores de privacidade e o TripQ mantém uma notificação visível. Os vídeos são guardados localmente em `Movies/TripQ` e incluem marca d’água com data e hora.
 
-Arquivos salvos na galeria podem permanecer após a desinstalação e podem ser tratados por aplicativos de galeria, backup ou sincronização conforme as configurações desses serviços. Para removê-los, use a galeria, o gestor de arquivos e o serviço de backup aplicável.
+## 3. Partilha, rede e terceiros
 
-## 3. Compartilhamento e acesso à rede
+Nesta beta, o TripQ não tem conta de utilizador, anúncios, telemetria, análise remota, faturação, servidor próprio ou partilha automática de dados. O conteúdo de ofertas, histórico, diagnósticos, imagens, vídeos, áudio e definições não é transmitido para servidores próprios ou vendido a terceiros.
 
-A versão descrita não transmite conteúdo de cartões de oferta, histórico, diagnósticos, imagens, vídeos, áudio ou configurações para servidores próprios. Ela não contém anúncios, telemetria, análise remota, conta de usuário, faturação ou servidor próprio.
+A abertura do Waze é uma ação escolhida pela pessoa usuária. A partilha posterior de capturas, vídeos ou diagnósticos por aplicativos externos também depende de uma ação explícita da pessoa usuária e segue as políticas desses aplicativos.
 
-A cópia do diagnóstico depende de toque explícito da pessoa usuária. Imagens e vídeos podem ser compartilhados posteriormente pela pessoa a partir da galeria ou de outros aplicativos, sob as regras desses aplicativos.
+## 4. Retenção, eliminação e segurança
 
-## 4. Retenção e exclusão
+O histórico e as preferências permanecem no armazenamento privado enquanto os dados do aplicativo existirem no aparelho. A pessoa pode apagar uma oferta isolada ou todo o histórico dentro do TripQ. Também pode limpar os dados do aplicativo ou desinstalá-lo através do Android.
 
-O histórico e as preferências ficam no armazenamento privado enquanto os dados do aplicativo existirem no aparelho. A opção **Apagar todo o histórico** remove os registros locais. Para remover preferências e outros dados privados, use os controles do Android para limpar os dados do aplicativo ou desinstalá-lo.
+Capturas e vídeos guardados na galeria podem permanecer depois da desinstalação. Para removê-los, utilize a galeria, o gestor de ficheiros e, se aplicável, o serviço de cópia de segurança. O TripQ desativa o backup automático dos seus dados privados, mas não controla cópias de ficheiros que tenham sido exportados para a galeria.
 
-O aplicativo desativa o backup automático de seus dados privados. Isso não controla cópias de imagens e vídeos guardados na galeria compartilhada.
+## 5. Permissões e controlos
 
-## 5. Permissões e controles
+O TripQ pode solicitar ou encaminhar para as permissões e controlos abaixo, conforme a função escolhida:
 
-O aplicativo pode solicitar ou direcionar para os seguintes controles, conforme a função escolhida:
-
-- **Acessibilidade**, para ler conteúdo visível de cartões em aplicativos compatíveis;
-- **Aparecer sobre outros aplicativos**, para exibir o balão e o cartão de análise;
-- **Câmera**, para gravação frontal iniciada pela pessoa;
+- **Acessibilidade**, para ler informações visíveis de cartões de oferta;
+- **Sobreposição**, para apresentar o balão e o cartão de análise;
+- **Câmara**, para gravação frontal iniciada pela pessoa usuária;
 - **Microfone**, somente se a gravação com áudio for escolhida;
-- **Notificações**, para informar gravação ativa;
+- **Notificações**, para comunicar a gravação ativa;
 - **Vibração**, para alertas curtos.
 
-A pessoa pode revogar permissões, desligar o leitor, pausar a leitura, desligar a leitura visual e desativar a captura para a galeria. Desativar uma função pode impedir o funcionamento dela, mas não apaga automaticamente arquivos já criados.
+A pessoa pode revogar permissões, desligar a leitura visual, desativar a captura automática, pausar o leitor ou apagar o histórico a qualquer momento. Desativar uma função pode impedir a função correspondente, mas não apaga automaticamente ficheiros já criados.
 
+## 6. Acessibilidade e consentimento
 
-## 6. Acessibilidade e limites do leitor
+Antes de encaminhar para as definições de Acessibilidade do Android, o TripQ mostra uma divulgação separada que explica quais informações visíveis podem ser lidas, a finalidade da análise local e os limites do serviço. A pessoa precisa tocar numa ação de consentimento antes de continuar.
 
-O uso do serviço de Acessibilidade é limitado exclusivamente à leitura de informações visíveis na tela de cartões de oferta de aplicativos compatíveis selecionados pela pessoa usuária, para cálculo e análise. O aplicativo não toca em botões, não aceita ou recusa ofertas, não preenche campos, não navega por outros aplicativos e não executa ações em nome da pessoa usuária.
+O uso da Acessibilidade é limitado à leitura de conteúdo visível necessário para analisar ofertas. O TripQ não automatiza decisões ou ações em plataformas de terceiros e não se apresenta como uma ferramenta de acessibilidade para pessoas com deficiência.
 
-O conteúdo visível necessário para a análise é processado localmente. A oferta reconhecida pode ser guardada no histórico privado deste aparelho, conforme explicado nesta política. O aplicativo não envia, vende ou compartilha esse conteúdo com servidores próprios ou terceiros. A pessoa pode desligar o leitor e apagar o histórico a qualquer momento.
+## 7. Publicidade e assinatura futuras
 
-## 7. Publicidade e assinaturas em versões futuras
+A versão beta atual é gratuita, sem publicidade e sem cobrança. Em uma versão futura, o aplicativo poderá mostrar publicidade fornecida por terceiros. Se isso acontecer, o TripQ atualizará antes a ficha da Google Play, a seção Segurança dos dados e esta Política para descrever os parceiros, dados, finalidades e controlos aplicáveis.
 
-A versão beta atual não exibe publicidade e não oferece assinatura paga. Em versões futuras, o aplicativo poderá exibir anúncios fornecidos por serviços de terceiros. Caso isso ocorra, esses serviços poderão processar dados técnicos ou identificadores para disponibilização e, quando permitido e configurado, personalização de anúncios. Antes de disponibilizar essa mudança, o aplicativo, a ficha da Google Play, o formulário Segurança dos dados e esta política serão atualizados para refletir exatamente os dados envolvidos, a finalidade, os parceiros e os controles aplicáveis.
-
-Futuras versões também poderão incluir assinaturas pagas oferecidas pela Google Play. Todas as cobranças serão processadas pelo sistema de faturação da Google Play, segundo os termos e controles da Google. O Corrida Certa não armazena os dados completos de cartão ou outros dados de pagamento usados no processamento da cobrança.
+Uma versão futura também poderá oferecer assinatura pela Google Play. Antes de qualquer compra, o preço, período, renovação e condições serão mostrados pela Google Play. O TripQ não armazena dados completos de cartão ou outros dados de pagamento usados nesse processamento.
 
 ## 8. Independência de plataformas
 
-O Corrida Certa não é afiliado, associado, patrocinado ou endossado pela Uber, Bolt, 99 ou por qualquer outra plataforma de transporte. Os nomes de plataformas eventualmente mostrados no aplicativo identificam somente a origem visível de uma oferta e pertencem aos respetivos titulares.
+O TripQ não é afiliado, associado, patrocinado ou endossado por qualquer plataforma de transporte ou mobilidade. Nomes e informações eventualmente visíveis no cartão de uma oferta pertencem aos respetivos titulares.
 
-## 9. Contato e alterações
+## 9. Atualizações desta política
 
-**Contato de privacidade e suporte:** [wbsxavier01@gmail.com](mailto:wbsxavier01@gmail.com)
+Esta Política pode ser atualizada quando as funcionalidades, permissões, monetização ou tratamento de dados mudarem. A data no início da página identifica a versão em vigor.
 
-Este e-mail é o canal público de suporte e privacidade do Corrida Certa. Esta política será atualizada se mudarem recursos, permissões, monetização ou fluxo de dados.
+# Termos de Uso – TripQ
+
+**Última atualização: 24 de setembro de 2026**
+
+## 1. Finalidade
+
+O TripQ é uma ferramenta de apoio para analisar ofertas visíveis e apresentar estimativas locais, como valor por quilómetro, valor por hora, custo e lucro estimado. O TripQ não é serviço de transporte, navegação, pagamento, emprego, seguro ou aconselhamento financeiro.
+
+## 2. Decisão da pessoa usuária
+
+Os resultados dependem do texto visível no cartão e das metas configuradas pela pessoa usuária. Uma oferta pode mostrar dados incompletos ou ser lida de forma incompleta. O TripQ não garante ganhos, rentabilidade, rotas, disponibilidade ou precisão absoluta. A decisão de aceitar ou recusar uma oferta é sempre da pessoa usuária.
+
+## 3. Uso responsável
+
+Use o TripQ com segurança e de acordo com as leis locais, regras de trânsito, regras das plataformas e regras de privacidade e gravação aplicáveis. Pare o veículo antes de alterar permissões, metas, câmara, áudio ou outras configurações. A pessoa usuária é responsável pelo uso que fizer de capturas e gravações.
+
+## 4. Recursos opcionais
+
+Acessibilidade, leitura visual, captura para galeria, câmara, microfone, voz, vibração e notificações dependem de escolhas e permissões separadas. A captura automática de oferta só funciona depois de ser ativada pela pessoa usuária. A gravação só começa por ação explícita da pessoa usuária e mantém os indicadores de privacidade e a notificação do Android visíveis.
+
+## 5. Beta e funcionalidades futuras
+
+O TripQ está em beta e pode conter falhas, mudanças ou limitações. Nesta versão, o uso é gratuito, sem publicidade e sem cobrança. Futuras versões poderão oferecer publicidade ou assinatura pela Google Play, sempre com informação atualizada e apresentada antes de qualquer cobrança.
+
+## 6. Propriedade e independência
+
+O nome TripQ, o ícone e os elementos próprios do aplicativo não concedem autorização para cópia ou uso comercial fora do uso normal do aplicativo. Marcas e conteúdos de terceiros pertencem aos respetivos titulares. Compatibilidade com plataformas não cria afiliação, patrocínio ou endosso.
+
+## 7. Limitação de responsabilidade
+
+Na extensão permitida pela legislação aplicável, o TripQ é fornecido "tal como está". O aplicativo não garante funcionamento ininterrupto ou reconhecimento de todos os cartões. A pessoa usuária continua responsável pelas próprias decisões, pela condução segura e pelo cumprimento das regras aplicáveis.
+
+## 8. Contacto
+
+Para suporte ou dúvidas sobre estes Termos ou a Política de Privacidade, escreva para **wbsxavier01@gmail.com**.
 
 ## Referências
 
-[1]: https://support.google.com/googleplay/android-developer/answer/10144311?hl=pt-BR "Google Play — Política de Dados do usuário"
-[2]: https://support.google.com/googleplay/android-developer/answer/10787469?hl=pt-BR "Google Play — Informações para Segurança dos dados"
-[3]: https://developer.android.com/about/versions/14/features/app-metadata "Android Developers — Metadados e definições de coleta de dados"
-
-## 10. Termos de Uso
-
-**Última atualização:** 23 de setembro de 2026  
-**Versão:** 0.8.0-beta  
-**Contato:** [wbsxavier01@gmail.com](mailto:wbsxavier01@gmail.com)
-
-### Finalidade
-
-O **Corrida Certa** é uma ferramenta de apoio à avaliação de ofertas visíveis em aplicativos compatíveis de transporte. O aplicativo apresenta indicadores calculados no aparelho, como valor por quilómetro e valor por hora, com base no texto visível e nas metas configuradas pela pessoa usuária.
-
-### Decisão da pessoa usuária
-
-O Corrida Certa não aceita, recusa, toca em botões, navega ou executa ações em ofertas. O aplicativo não garante valores, rendimento, disponibilidade de ofertas, rotas, ganhos ou rentabilidade. Toda decisão permanece exclusivamente com a pessoa usuária.
-
-### Uso responsável
-
-Use o aplicativo com o veículo parado quando necessário. A pessoa usuária é responsável por observar as leis de trânsito, privacidade, gravação, uso de câmera, áudio e dispositivos no local onde estiver.
-
-### Recursos opcionais
-
-Leitura visual, captura de imagens, câmera, microfone, alertas e gravação dependem de permissões e escolhas separadas. A gravação é iniciada pela própria pessoa usuária e mantém os indicadores de privacidade e a notificação do Android visíveis.
-
-### Versão beta, publicidade e assinatura futura
-
-A versão beta atual é gratuita e não contém publicidade ou cobrança. Em versões futuras, o aplicativo poderá exibir anúncios fornecidos por serviços de terceiros. Antes de essa mudança ser disponibilizada, os dados envolvidos, a finalidade, os parceiros e os controles serão descritos no aplicativo, na ficha da Google Play e na Política de Privacidade atualizada.
-
-Futuras versões poderão oferecer assinaturas pagas pela Google Play. Qualquer preço, período, renovação e condições serão mostrados antes da compra. O processamento de pagamento será realizado pelo sistema de faturação da Google Play; o Corrida Certa não armazena os dados completos de pagamento.
-
-### Limites de Acessibilidade e independência
-
-O uso da Acessibilidade é limitado à leitura de informações visíveis de cartões de oferta em aplicativos compatíveis selecionados pela pessoa usuária, para cálculo e análise local. O aplicativo não toca em botões, não aceita ou recusa ofertas e não executa ações em nome da pessoa usuária. O histórico pode guardar localmente uma oferta reconhecida; o conteúdo não é enviado ou compartilhado com servidores próprios ou terceiros.
-
-O Corrida Certa não é afiliado, associado, patrocinado ou endossado pela Uber, Bolt, 99 ou por qualquer outra plataforma de transporte.
-
-### Privacidade
-
-A política de privacidade explica o tratamento local de dados, histórico, capturas e vídeos: veja as seções 1 a 9 desta mesma página.
-
-### Alterações e contato
-
-Estes termos podem ser atualizados quando as funcionalidades ou regras do aplicativo mudarem. Para dúvidas, utilize [wbsxavier01@gmail.com](mailto:wbsxavier01@gmail.com).
+[1]: https://support.google.com/googleplay/android-developer/answer/10144311?hl=pt-BR "Política de Dados do Usuário do Google Play"
+[2]: https://support.google.com/googleplay/android-developer/answer/10964491?hl=pt-BR "Uso da API AccessibilityService no Google Play"
+[3]: https://support.google.com/googleplay/android-developer/answer/10787469?hl=pt-BR "Informações da seção Segurança dos dados no Google Play"
