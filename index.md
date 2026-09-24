@@ -45,9 +45,9 @@ A gravação frontal inicia e termina somente por comando da pessoa usuária. O 
 
 ### Modalidade gratuita com publicidade
 
-O TripQ pode apresentar publicidade fixa **somente dentro do aplicativo** e disponibilizar um vídeo patrocinado que a pessoa escolhe assistir para iniciar uma sessão gratuita de leitura. A publicidade não é exibida no balão flutuante nem por cima de aplicativos de terceiros.
+O TripQ pode apresentar publicidade fixa **somente dentro do aplicativo** e disponibilizar um vídeo patrocinado que a pessoa escolhe assistir para liberar temporariamente o reconhecimento de texto por imagem (OCR) quando um cartão não expõe texto à Acessibilidade. A publicidade não é exibida no balão flutuante nem por cima de aplicativos de terceiros.
 
-No acesso gratuito com publicidade, desligar a tela encerra a sessão gratuita de leitura. Para iniciar a leitura novamente, a pessoa precisa abrir o TripQ e escolher ver outro vídeo patrocinado. Esta regra não se aplica a quem tem uma assinatura Premium ativa; a pessoa assinante mantém a leitura ativa ao desligar a tela, até pausar manualmente o leitor ou revogar uma permissão.
+No acesso gratuito com publicidade, desligar a tela pausa a leitura e encerra qualquer benefício temporário de OCR obtido por vídeo. Para iniciar a leitura novamente, a pessoa precisa abrir o TripQ e tocar em Ler; pode escolher continuar com banner e leitura normal ou ver outro vídeo para OCR visual. Esta regra não se aplica a quem tem uma assinatura Premium ativa; a pessoa assinante mantém a leitura ativa ao desligar a tela, até pausar manualmente o leitor ou revogar uma permissão.
 
 Quando publicidade estiver configurada, o TripQ utiliza serviços de publicidade de terceiros, como o Google AdMob. Esses serviços podem tratar dados técnicos e identificadores do dispositivo, endereço IP aproximado, dados de interação com anúncios e informações necessárias para fornecer, medir, limitar frequência, prevenir fraude e, quando permitido pela legislação e pelas escolhas da pessoa usuária, personalizar publicidade. O TripQ não envia a esses serviços o texto das ofertas, histórico local, imagens de ofertas, vídeos, endereços ou áudio gravados pelo aplicativo.
 
@@ -113,7 +113,7 @@ Use o TripQ com segurança e de acordo com as leis locais, regras de trânsito, 
 
 ## 4. Acesso gratuito e publicidade
 
-O acesso gratuito pode exigir que a pessoa escolha assistir a um vídeo patrocinado antes de iniciar a leitura. A pessoa pode recusar o vídeo e optar pelo TripQ Premium; assistir ao vídeo não é necessário para usar os recursos de assinatura. Desligar a tela encerra uma sessão gratuita com publicidade. Publicidade fixa pode aparecer somente dentro do TripQ e nunca no balão ou sobre outros aplicativos.
+No acesso gratuito, a pessoa pode escolher assistir a um vídeo patrocinado para liberar temporariamente OCR visual, usado quando o cartão não expõe texto à Acessibilidade. Também pode continuar com banner e leitura normal sem assistir ao vídeo. O vídeo não remove o banner, não libera extras Premium e não altera as marcas de água gratuitas. Desligar a tela pausa a leitura gratuita e encerra o OCR temporário. Publicidade fixa pode aparecer somente dentro do TripQ e nunca no balão ou sobre outros aplicativos.
 
 ## 5. TripQ Premium
 
